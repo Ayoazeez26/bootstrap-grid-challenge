@@ -1,0 +1,66 @@
+body {
+  background-color: #E6EFF6;
+}
+
+h4 {
+  color: hsl(179, 62%, 43%);
+}
+
+.hassle {
+  color: hsl(71, 73%, 54%);
+}
+
+.access-text {
+  color: hsl(218, 22%, 67%)
+}
+
+.content-row {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sub-col {
+  background-color: #2BB3B1;
+}
+
+.why-col {
+  background-color: #4ABEBD;
+
+}
+
+.why-col ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.price-desc {
+  display: flex;
+  align-items: center;;
+}
+
+.price {
+  font-size: 32px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.sign-btn {
+  background-color: #BFDF32;
+  font-weight: 700;
+  color: white;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  h4 {
+    font-size: 16px;
+  }
+  .hassle {
+    font-size: 14px;
+  }
+  .access-text {
+    font-size: 12px;
+  }
+}
