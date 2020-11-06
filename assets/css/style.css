@@ -23,11 +23,12 @@ h4 {
 
 .sub-col {
   background-color: #2BB3B1;
+  border-bottom-left-radius: 5px;
 }
 
 .why-col {
   background-color: #4ABEBD;
-
+  border-bottom-right-radius: 5px;
 }
 
 .why-col ul {
@@ -46,6 +47,10 @@ h4 {
   font-size: 32px;
   font-weight: 700;
   margin-right: 10px;
+}
+
+.dur {
+  color: rgba(255, 255, 255, 0.623);
 }
 
 .sign-btn {
@@ -73,8 +78,14 @@ h4 {
     left: 0;
     transform: translate(0, 0);
     width: 70%;
-    margin: 0 auto;
-    margin-top: 60px;
+    margin: 60px auto;
   }
-  
+  .sub-col {
+    border-bottom-left-radius: 0;
+  }
+  .why-col {
+    background-color: #4ABEBD;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
 }
